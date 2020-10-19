@@ -5,6 +5,10 @@ const istate = {
 	mydata: '',
 	forTalha: '',
 	forNoor: '',
+	forNoor2: '',
+	forNoor3: '',
+	forNoor4: '',
+	forNoor5: '',
 };
 
 const reducer = (state = istate, action) => {

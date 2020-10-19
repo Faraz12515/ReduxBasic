@@ -22,6 +22,27 @@ export default function Faraz() {
 			>
 				Click
 			</button>
+			<button
+				onClick={() =>
+					dispatch({ type: 'Faraz', payload: count + 1, name: name })
+				}
+			>
+				Click
+			</button>
+			<button
+				onClick={() =>
+					dispatch({ type: 'Faraz', payload: count + 1, name: name })
+				}
+			>
+				Click
+			</button>
+			<button
+				onClick={() =>
+					dispatch({ type: 'Faraz', payload: count + 1, name: name })
+				}
+			>
+				Click
+			</button>
 		</div>
 	);
 }
